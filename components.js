@@ -221,6 +221,10 @@ Vue.component("info-modal", {
             <span class="c-info-modal__header">Hosting:</span>
             <span>- <aa href="https://pages.github.com/">GitHub Pages</aa></span>
             <span>- <aa href="https://www.jsdelivr.com/">jsDelivr</aa></span>
+            <span class="c-info-modal__header">API:</span>
+            <span>- <aa href="https://socialblade.com/">SocialBlade</aa></span>
+            <span>- <aa href="https://restcountries.eu/">REST Countries</aa></span>
+            <span>- <aa href="https://countryflags.io/">CountryFlags</aa></span>
           </div>
         </div>
       </transition>
