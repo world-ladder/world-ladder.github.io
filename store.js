@@ -2,7 +2,7 @@ const store = new Vuex.Store({
   state: {
     loaded: false,
     broArmy: 0,
-    countries: {},
+    countries: [],
     next: "XXX",
     previous: "XXX",
     highlighted: "XXX"
