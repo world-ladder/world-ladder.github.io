@@ -28,7 +28,9 @@ async function fetchBroArmy() {
   const query = "https://bastet.socialblade.com/youtube/lookup?query=UC-lHJZR3Gqxm24_Vd_AJ5Yw";
   const response = await fetch(query);
   const text = await response.text();
-  return parseInt(text);
+  const broArmy = parseInt(text);
+  if (isNaN(broArmy)) throw "Fuck";
+  return broArmy;
 }
 
 async function updateBroArmy() {
